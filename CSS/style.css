@@ -1,0 +1,105 @@
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+} 
+ *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+ 
+  .calculator {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 400px;
+  }
+
+  .calculator-screen {
+    background-color: burlywood;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: currentColor;
+    opacity: 0.8;
+    color: #fff;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    
+  }
+
+  button {
+    border-radius: 10px;
+    height: 60px;
+    font-size: 2rem!important;
+  }
+
+  .equal-sign {
+    height: 98%;
+    grid-area: 2 / 4 / 6 / 5 ;
+    background-color: rgb(0, 162, 229)!important;
+  }
+
+  .calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  .calculator {
+    background-image: url("images/P4LP9H0.jpg");
+     background-repeat: no-repeat;
+     background-position: right top;
+    }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ 
+ header.page-header {
+  
+  display: flex;
+  height: 120px;
+  min-width: 120px;
+  align-items: center;
+  color: #fff;
+  text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+  font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+      fantasy;
+  margin: 2%;
+}
+.operator{
+  background-color: burlywood;
+}
+.all-clear {
+  background-color: coral;
+}
+
+.whole{
+  background-image: url("images/P4LP9H0.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.bg-1 {
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
